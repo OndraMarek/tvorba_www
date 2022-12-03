@@ -55,15 +55,16 @@ h2{
 }
 
 footer{
-    background-color: rgb(81, 201, 103);
+    background-color: rgb(39, 12, 57);
+
     text-align: center;
 }
 
 footer p{
     margin: 0px;
     padding: 10px;
+    color: white;
 }
-
 
 h3{
     color: rgb(39, 12, 57);
@@ -74,18 +75,15 @@ a:hover{
     text-decoration: none;
 }
 
+.introimg img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .bgwhite{
     background-color: white;
 }
 
 .bgpurple{
     background-color:rgb(63, 19, 92);
-}
-
-.btn-light{
-    color: rgb(63, 19, 92);
-}
-
-a.btn-light:hover{
-    color: rgb(63, 19, 92);
 }
